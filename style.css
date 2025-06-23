@@ -56,7 +56,10 @@ section h2 {
 }
 
 #a-propos img {
-    border-radius: 50%;
+    width: 150px;       /* largeur fixe */
+  height: 150px;      /* hauteur fixe égale à la largeur */
+  border-radius: 50%; /* arrondi total pour faire un cercle */
+  object-fit: cover;  /* pour garder le ratio et remplir le cercle */
 }
 
 .cartes-projets-conteneur {
